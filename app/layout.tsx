@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FYPFixer - Own Your FYP",
-  description: "Take control of your TikTok algorithm. Create personalized growth plans to retrain your feed.",
+  title: "FYPFixer - Retrain Your TikTok Feed",
+  description: "Take control of your TikTok For You Page with personalized action plans",
   generator: "v0.app",
   icons: {
     icon: [
