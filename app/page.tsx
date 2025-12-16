@@ -1,9 +1,12 @@
 "use client"
 
+import { redirect } from "next/navigation"
 import { useState } from "react"
 import { CategoryPickerModal } from "@/components/category-picker-modal"
 
 export default function Home() {
+  redirect("/auth")
+
   const [isModalOpen, setIsModalOpen] = useState(true)
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
 
